@@ -8,7 +8,7 @@
 * [Error handling](#error-handling)
 * [Versions](#versions)
 * [Record limits](#record-limits)
-* [ETags](#ETags)
+* [ETags](#etags)
 * [Request & Response Examples](#request-response-examples)
 * [Mock Responses](#mock-responses)
 * [JSONP](#jsonp)
