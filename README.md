@@ -160,16 +160,11 @@ Response object example:
         "metadata": {
             "etag": "xxxx-yyyy-zzzz"
         },
-        "results": [
-            { .. }
-          ]
-        }
     }
     
 HTTP Header example:
 
-    etag: "xxxx-yyyy-zzzz"
-   
+    etag: "xxxx-yyyy-zzzz"   
 
 ## Request & Response Examples
 
