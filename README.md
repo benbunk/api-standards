@@ -150,8 +150,12 @@ Information about record limits should also be included in the Example resonse. 
 
 ETags allow clients and intermediaries to cache requests according to their unique entity id which can reduce traffic to origin servers.
 
-* Part of the metadata object. Example:
+* Part of the metadata object.
+* Part of the HTTP Header.
 
+Documentation: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.19
+
+Response object example:
     {
         "metadata": {
             "etag": "xxxx-yyyy-zzzz"
@@ -162,11 +166,10 @@ ETags allow clients and intermediaries to cache requests according to their uniq
         }
     }
     
-* Part of the HTTP Header. Example:
+HTTP Header example:
 
     etag: "xxxx-yyyy-zzzz"
    
-Documentation: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.19
 
 ## Request & Response Examples
 
