@@ -156,12 +156,13 @@ ETags allow clients and intermediaries to cache requests according to their uniq
 Documentation: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.19
 
 Response object example:
+
     {
         "metadata": {
             "etag": "xxxx-yyyy-zzzz"
-        },
+        }
     }
-    
+
 HTTP Header example:
 
     etag: "xxxx-yyyy-zzzz"   
